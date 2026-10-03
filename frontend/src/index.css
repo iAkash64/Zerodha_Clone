@@ -1,0 +1,515 @@
+body {
+  margin: 0;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.nav-link {
+  margin-left: 40px;
+}
+.nav-link:hover {
+  color: #387ed1;
+}
+
+.details a {
+  display: block;
+  text-decoration: none;
+  font-weight: 400;
+  color: #666;
+  margin-top: 16px;
+}
+.details a:hover {
+  color: #387ed1;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 5px;
+}
+
+.card-link {
+  text-decoration: none;
+  color: #666;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.card-link:hover {
+  color: #387ed1;
+}
+
+.copyRight {
+  font-size: 0.8rem;
+}
+
+/* Support Page - supportHero */
+/* background-color: #387ed1; */
+/* #supportHero {
+  background-color: rgb(56, 126, 209);
+  color: white;
+}
+#supportHero h4 {
+  line-height: 32px;
+  font-weight: 400;
+}
+#supportHero input {
+  padding: 15px 15px;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+}
+#supportHero a {
+  color: white;
+}
+#supportHero ol {
+  margin-top: -10px;
+  line-height: 35px;
+}
+#supportWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+#supportWrapper a {
+  margin-right: 60px;
+}
+
+#supportFeature {
+  margin-top: -10px;
+  padding-left: 90px;
+} */
+
+/* Updated support css*/
+
+#supportHero {
+  background-color: rgb(56, 126, 209);
+  color: white;
+  padding-bottom: 80px !important;
+}
+
+#supportHero h4 {
+  line-height: 38px;
+  font-weight: 400;
+}
+
+#supportHero input {
+  padding: 15px 20px;
+  width: 95%;
+  font-size: 15px;
+  border-radius: 3px;
+  border: none;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+#supportHero input:focus {
+  outline: none;
+}
+
+#supportHero a {
+  color: white;
+  text-decoration: underline;
+}
+
+#supportHero ol {
+  margin-top: 15px;
+  line-height: 35px;
+}
+
+#supportWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 110px;
+}
+
+#supportWrapper a {
+  margin-right: 20px;
+}
+
+#heroContent {
+  margin: 0 75px;
+}
+
+.hero-links a {
+  margin-right: 20px;
+  line-height: 2.5;
+  font-size: 14.5px;
+}
+
+#supportFeature {
+  padding-left: 90px;
+}
+
+/* Signup page */
+
+/* .signup-page {
+
+  padding: 90px 0;
+  min-height: 70vh;
+  background-color: #fbfbfb;
+}
+
+.signup-image {
+  width: 100%;
+  max-width: 430px;
+}
+
+.signup-card {
+  background: white;
+  padding: 35px;
+  border: 1px solid #e6e6e6;
+  border-radius: 6px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+}
+
+.signup-card h2 {
+  color: #424242;
+  margin-bottom: 10px;
+}
+
+.signup-card p {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.signup-card input {
+  width: 100%;
+  padding: 13px;
+  margin-bottom: 15px;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.signup-card input:focus {
+  outline: none;
+  border-color: #387ed1;
+}
+
+.signup-card button {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  border-radius: 4px;
+  background-color: #387ed1;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-card button:hover {
+  background-color: #256cb8;
+}
+
+.signup-message {
+  margin-top: 18px !important;
+  color: #387ed1 !important;
+} */
+
+/* Signup page */
+
+.zerodha-signup-page {
+  color: #424242;
+  background: #ffffff;
+  padding: 28px 0 90px;
+}
+
+.signup-heading {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px 75px;
+  text-align: center;
+}
+
+.signup-heading h1 {
+  margin: 0 0 22px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.signup-heading p {
+  margin: 0;
+  color: #666;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.signup-content {
+  max-width: 1120px;
+  padding: 0 25px 85px;
+}
+
+.signup-content .row {
+  --bs-gutter-x: 4rem;
+  --bs-gutter-y: 3rem;
+}
+
+.zerodha-signup-image {
+  display: block;
+  width: 100%;
+  max-width: 490px;
+  margin: 0 auto;
+}
+
+.otp-form-container {
+  max-width: 440px;
+}
+
+.otp-form-container h2 {
+  margin: 0 0 10px;
+  color: #424242;
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.otp-form-container > p {
+  margin: 0 0 28px;
+  color: #888;
+  font-size: 16px;
+}
+
+.mobile-input {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 58px;
+  border: 1px solid #9b9b9b;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.country-code {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 15px;
+  border-right: 1px solid #d6d6d6;
+  color: #444;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.mobile-input input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0 16px;
+  color: #424242;
+  font-size: 16px;
+}
+
+.mobile-input input::placeholder {
+  color: #aaa;
+}
+
+.mobile-input:focus-within {
+  border-color: #387ed1;
+}
+
+.otp-form-container button {
+  width: 66%;
+  min-width: 190px;
+  margin-top: 28px;
+  padding: 14px 18px;
+  border: none;
+  border-radius: 3px;
+  background: #387ed1;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.otp-form-container button:hover {
+  background: #2d6fb9;
+}
+
+.otp-message {
+  margin: 15px 0 0 !important;
+  color: #387ed1 !important;
+  font-size: 14px !important;
+}
+
+.terms-text,
+.nri-text {
+  color: #777 !important;
+  font-size: 14px !important;
+  line-height: 1.7;
+}
+
+.terms-text {
+  margin-top: 38px !important;
+  margin-bottom: 24px !important;
+}
+
+.nri-text {
+  margin: 20px 0 0 !important;
+}
+
+.otp-form-container a,
+.existing-account a {
+  color: #387ed1;
+  text-decoration: none;
+}
+
+.otp-form-container a:hover,
+.existing-account a:hover {
+  color: #2d6fb9;
+}
+
+.otp-form-container hr {
+  margin: 0;
+  border: 0;
+  border-top: 1px solid #e5e5e5;
+}
+
+.existing-account {
+  padding: 15px 20px 0;
+  text-align: center;
+}
+
+.existing-account h2 {
+  margin: 0 0 22px;
+  color: #424242;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.existing-account p {
+  margin: 0;
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Tablet and mobile */
+
+@media (max-width: 991px) {
+  .signup-heading {
+    padding-bottom: 50px;
+  }
+
+  .signup-content {
+    max-width: 700px;
+    padding-bottom: 65px;
+  }
+
+  .zerodha-signup-image {
+    max-width: 430px;
+    margin-bottom: 10px;
+  }
+
+  .otp-form-container {
+    max-width: 440px;
+    margin: 0 auto;
+  }
+
+  .otp-form-container button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .zerodha-signup-page {
+    padding-top: 18px;
+  }
+
+  .signup-heading {
+    padding: 0 18px 38px;
+  }
+
+  .signup-heading h1 {
+    font-size: 23px;
+    line-height: 1.4;
+    margin-bottom: 14px;
+  }
+
+  .signup-heading p {
+    font-size: 15px;
+  }
+
+  .signup-content {
+    padding: 0 12px 55px;
+  }
+
+  .zerodha-signup-image {
+    max-width: 340px;
+  }
+
+  .otp-form-container h2 {
+    font-size: 24px;
+  }
+
+  .otp-form-container > p {
+    font-size: 15px;
+  }
+
+  .mobile-input {
+    height: 54px;
+  }
+
+  .country-code {
+    padding: 0 11px;
+    font-size: 14px;
+  }
+
+  .mobile-input input {
+    padding: 0 12px;
+    font-size: 15px;
+  }
+
+  .otp-form-container button {
+    margin-top: 22px;
+    font-size: 16px;
+  }
+
+  .existing-account {
+    padding: 0 20px;
+  }
+
+  .existing-account h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .existing-account p {
+    font-size: 15px;
+  }
+}
+
+/* Restyle Frontend */
+.product-image {
+  display: block;
+  width: 100%;
+  max-width: 620px;
+  height: auto;
+  margin: 80px auto 0;
+}
+
+.product-title {
+  margin-top: 106px;
+}
+
+@media (max-width: 991px) {
+  .product-image {
+    margin-top: 35px;
+  }
+
+  .product-title {
+    margin-top: 24px;
+  }
+}
