@@ -4,6 +4,9 @@ This is an educational full-stack trading-dashboard clone. It is not affiliated
 with Zerodha and must not be used to place real trades or handle real financial
 accounts.
 
+🚀 Live Demo(frontend) : https://zerodha-clone-akash-4d83.vercel.app
+🚀 Live Demo(frontend-dashboard) : https://zerodha-clone-w8hn.vercel.app
+
 ## Applications
 
 - `frontend/` — public marketing and signup pages (React)
